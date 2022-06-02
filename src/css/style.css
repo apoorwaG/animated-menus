@@ -1,0 +1,23 @@
+html {
+    font-size: 12px;
+    --outer-border-padding: 1rem;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: min-content min-content;
+    row-gap: 40px;
+    padding: calc(var(--outer-border-padding) * 1.3);
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+}
